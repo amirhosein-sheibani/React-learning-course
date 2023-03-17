@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.animation{
+  font-size: 10px;
+}
+
+.animation:hover{
+  transform: scale(1.2);
+  color: black;
+  font-weight: bold;
+}
+
+
+
+button:disabled{
+  opacity: 0.35;
+}
+
+.login{
+  color: white;
+  background-color: rgb(37, 88, 255);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.error{
+  background-color: rgb(255, 192, 192);
+  border-radius: 10px;
+}
+
+.button-newmovies{
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(10, 132, 255);
+  color: white ;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.button-newmovies:hover{
+  transform: scale(1.1);
+}
